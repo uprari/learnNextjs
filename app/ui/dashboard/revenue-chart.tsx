@@ -11,7 +11,7 @@ import { lusitana } from '@/app/ui/fonts';
 export default async function RevenueChart({
   revenue,
 }: {
-  revenue: Revenue[];
+  revenue: [];
 }) {
   const chartHeight = 350;
   // NOTE: Uncomment this code in Chapter 7
